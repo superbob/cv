@@ -1,0 +1,29 @@
+important:
+  - Java (Java SE 8, JEE)
+  - Spring (Core, Context, MVC, Data, OAuth)
+  - Docker
+  - AngularJS
+  - Node.js
+  - Grunt
+  - REST
+  - TDD
+  - Clean Code
+normal:
+  - Securité
+  - Cryptographie
+  - Maven
+  - Jenkins
+  - Git
+  - RabbitMQ
+lesser:
+  - Zookeeper
+  - Jetty
+  - JBoss
+  - Tomcat
+  - Oracle
+  - Postgres
+  - MySQL
+  - Intellij IDEA
+  - Linux/UNIX
+  - Shell
+  - z/OS

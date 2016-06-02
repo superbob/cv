@@ -1,0 +1,157 @@
+---
+layout: default
+---
+{% comment %}
+
+Hello, if you can read this, it means that you are at the source code, I mean the one that is used to generate the website.
+
+Feel free to browse it, interesting files are
+ - index.html (you are here)
+ - _layouts/default.html
+ - css/main.scss
+ - _data/*.yml
+ - render-pdf.js
+
+{% endcomment %}
+<div class="main-layout">
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="images/picture.png">
+    </div>
+    <div class="col-sm-9">
+      <div class="row">
+        <div class="col-sm-12 name">
+          <p>{{ site.data.contact.firstname }}</p>
+          <p>{{ site.data.contact.name }}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 profession">
+          <p>{{ site.data.recruitement.jobtitle }}</p>
+          <p>{{ site.data.recruitement.experience }}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 contact">
+          <p>{{ site.data.contact.phone }}</p>
+          <p>{{ site.data.contact.email }}</p>
+          <p>{{ site.data.contact.locality }}</p>
+          <p>{{ site.data.contact.nationality }}</p>
+          <p>{{ site.data.contact.age }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row intro">
+    <div class="col-sm-3 panel-title">
+      Profil
+    </div>
+    <div class="col-sm-9 description">
+      <p>
+        {{ site.data.recruitement.profile }}
+      </p>
+    </div>
+  </div>
+  <div class="row tools">
+    <div class="col-sm-3 panel-title">
+      Technologies et outils
+    </div>
+    <div class="col-sm-9 description">
+      <span class="big">
+        {% for tag in site.data.tools.important %}
+          {{ tag }} <span class="bullet">&#x2022;</span>
+        {% endfor %}
+      </span>
+      {% for tag in site.data.tools.normal %}
+        {{ tag }} <span class="bullet">&#x2022;</span>
+      {% endfor %}
+      <span class="small">
+        {% for tag in site.data.tools.lesser %}
+          {{ tag }}
+          {% if forloop.last == false %}
+            <span class="bullet">&#x2022;</span>
+          {% endif %}
+        {% endfor %}
+      </span>
+    </div>
+  </div>
+  <div class="row languages">
+    <div class="col-sm-3 panel-title">
+      Langues
+    </div>
+    <div class="col-sm-9 description">
+      <img src="images/fr.svg" width="20px">
+      Français : Langue maternelle<br>
+      <img src="images/gb.svg" width="20px">
+      <img src="images/us.svg" width="20px">
+      Anglais : Usage courant (rédaction de documents, réunions), niveau validé (2007) : TOEFL 750<br>
+      <img src="images/de.svg" width="20px">
+      Allemand : Niveau élémentaire, pas d'experience professionnelle, niveau validé (2007) : CECR B2
+    </div>
+  </div>
+  <div class="row experiences">
+    <div class="col-sm-3 panel-title">
+      Expériences
+    </div>
+    <div class="col-sm-9 description">
+      {% for experience in site.data.experiences reversed %}
+        <div class="row">
+          <div class="col-sm-7 element-title">{{ experience.job-title }}</div>
+          <div class="col-sm-5 time">{{ experience.time }}</div>
+        </div>
+        <div class="row location">
+          <div class="col-sm-12">{{ experience.location }}</div>
+        </div>
+        <div class="row details">
+          <div class="col-sm-12">
+            <p>
+              {{ experience.description | markdownify }}
+            </p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="row education">
+    <div class="col-sm-3 panel-title">
+      Formation
+    </div>
+    <div class="col-sm-9 description">
+      {% for education in site.data.education %}
+        <div class="row">
+          <div class="col-sm-7 element-title">{{ education.school }}</div>
+          <div class="col-sm-5 time">{{ education.time }}</div>
+        </div>
+        <div class="row location">
+          <div class="col-sm-12">{{ education.graduation }}</div>
+        </div>
+        <div class="row details">
+          <div class="col-sm-12">{{ education.location }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="row interests">
+    <div class="col-sm-3 panel-title">
+      Intérets
+    </div>
+    <div class="col-sm-9 description">
+      {% for leisure in site.data.leisure %}
+        {{ leisure }}
+        {% if forloop.last == false %}
+          <span class="bullet">&#x2022;</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <img src="images/qr.png" width="200px">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 url">
+      <a href="https://superbob.github.io/cv">https://superbob.github.io/cv</a>
+    </div>
+  </div>
+</div>

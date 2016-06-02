@@ -1,0 +1,167 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Montserrat';
+
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: bold;
+
+  src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+$main-font-stack: 'Montserrat', sans-serif;
+
+$color-neutral: WhiteSmoke;
+$color-faded: DarkGray;
+
+// Taking natural color bases from light spectrum
+// https://academo.org/demos/wavelength-to-colour-relationship/
+// Appying darker colors to make it less flashy
+$color-1: rgb(97, 0, 97); // 380 nm : Dark purple
+$color-2: darken(rgb(0, 123, 255), 5%); // 460 nm : Dark blue
+$color-3: darken(rgb(0, 192, 255), 5%); // 475 nm : Greener blue
+$color-4: darken(rgb(179, 255, 0), 15%); // 555 nm : Green -> making it darker because natural green is too bright
+$color-5: darken(rgb(255, 223, 0), 5%); // 590 nm : Yellow
+$color-5-print: darken($color-5, 10%); // Darken yellow for print
+$color-6: darken(rgb(255, 155, 0), 5%); // 610 nm : Orange
+$color-7: darken(rgb(255, 33, 0), 5%); // 640 nm : Red
+
+$huge-size: 250%;
+$bigger-size: 140%;
+$big-size: 120%;
+
+$border-thickness: 12px;
+
+$block-padding: 10px;
+
+body {
+  padding-top: 0px;
+  font-family: $main-font-stack;
+}
+
+.main-layout {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+@mixin thick-border($color) {
+  border-right-width: $border-thickness;
+  border-right-style: solid;
+  border-right-color: $color;
+}
+
+@mixin block-padding {
+  padding-top: $block-padding;
+  padding-bottom: $block-padding;
+}
+
+.name {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: $huge-size;
+  @include thick-border($color-neutral);
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.profession {
+  text-align: right;
+  color: $color-1;
+  font-weight: bold;
+  @include thick-border($color-1);
+}
+.contact {
+  text-align: right;
+  @include block-padding;
+  @include thick-border($color-1);
+}
+
+@mixin panel($color) {
+  @include block-padding;
+
+  .panel-title {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: $bigger-size;
+    font-weight: bold;
+    color: $color;
+  }
+  .description {
+    text-align: left;
+  }
+
+  @include thick-border($color);
+}
+
+@mixin panel-elements($color) {
+  .element-title {
+    color: $color;
+    font-weight: bold;
+  }
+
+  .time {
+    font-weight: bold;
+  }
+
+  .location {
+    font-weight: bold;
+  }
+
+  .details {
+    padding-bottom: 10px;
+  }
+}
+
+.intro { @include panel($color-2); }
+
+.tools {
+  @include panel($color-3);
+  .big { font-size: $big-size; }
+  .small { font-size: 85%; }
+  .bullet { color: $color-3; }
+}
+
+.languages { @include panel($color-4); }
+
+.experiences {
+  @include panel($color-5);
+  @include panel-elements($color-5);
+}
+
+// Little hack for a too bright color that wouldn't render well on a greyscale print
+@media print {
+  .experiences {
+    @include panel($color-5-print);
+    @include panel-elements($color-5-print);
+  }
+}
+
+.education {
+  @include panel($color-6);
+  @include panel-elements($color-6);
+}
+
+.interests {
+  @include panel($color-7);
+  .bullet { color: $color-7; }
+}
+
+.url {
+  a {
+    color: $color-faded;
+    font-size: 90%;
+    &:hover {
+      color: $color-faded;
+    }
+  }
+}
