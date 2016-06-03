@@ -63,7 +63,8 @@ body {
 }
 
 .name {
-  text-align: right;
+  text-align: center;
+  @media(min-width:768px) { text-align: right; }
   text-transform: uppercase;
   font-weight: bold;
   font-size: $huge-size;
@@ -90,7 +91,8 @@ p {
   @include block-padding;
 
   .panel-title {
-    text-align: right;
+    text-align: center;
+    @media(min-width:768px) { text-align: right; }
     text-transform: uppercase;
     font-size: $bigger-size;
     font-weight: bold;
