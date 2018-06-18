@@ -99,9 +99,11 @@ Feel free to browse it, interesting files are
           <div class="col-sm-7 element-title">{{ experience.job-title }}</div>
           <div class="col-sm-5 time">{{ experience.time }}</div>
         </div>
+        {% if experience.location !=  %}
         <div class="row location">
           <div class="col-sm-12">{{ experience.location }}</div>
         </div>
+        {% endif %}
         <div class="row details">
           <div class="col-sm-12">
             <p>

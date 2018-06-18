@@ -1,14 +1,11 @@
 - job-title: Stagiaire Ingénieur
   time: 2007 (5 mois)
-  location: Sopra Group Agence Monétique, Toulouse - Colomiers
-  description: "Études sur la gestion de la fraude acquéreur (interview de collaborateurs,
-étude de documentation de certification, étude de solutions internes)<br>
-Étude d'évolution d'une solution de gestion de la fraude acquéreur
-(rédaction de documentation commerciale : livres Blancs, présentations)<br>
-Étude et évolution d'une solution de gestion d'alerte d'automate bancaire"
+  location: Sopra Group - Agence Monétique / Sopra Banking Software, Toulouse - Colomiers
+  description: "Étude d'évolution d'une solution de gestion de la fraude acquéreur
+(interview de collaborateurs, étude de documentation de certification, rédaction de documentation commerciale : livres Blancs, présentations)"
 - job-title: Ingénieur d'études et développement
   time: 2007-2009 (2 ans)
-  location: Sopra Group ­ Agence Monétique / Evolan Edition, Toulouse - Colomiers
+  location: Sopra Group - Agence Monétique / Sopra Banking Software, Toulouse - Colomiers
   description: >
     Interventions sur divers progiciels et solutions :
 
@@ -18,24 +15,19 @@
 
     Tâches réalisées au sein de ces progiciels ou solutions :
 
-     * Étude d'un cahier des charges et des demandes client
-     * Rédaction de spécifications fonctionnelles et techniques, générales et détaillées
-     * Définition d'un périmètre fonctionnel puis d'un chiffrage d'évolutions à apporter sur un progiciel
-    existant
-     * Conception d'un modèle de données
-     * Étude et intégration d'un boîtier de cryptographie HSM (gestion de clés, chiffrement et
-    transchiffrement)
-     * Développement d'écrans client lourd (VB) et client léger (JEE)
-     * Développement de programmes back-end en C, Pro*C sur UNIX
-     * Planification et encadrement de 2 personnes pour réaliser un petit projet d'évolution
+     * Étude de besoin
+     * Rédaction de spécifications et chiffrage d'évolutions
+     * Interfaçage avec un boîtier de cryptographie HSM
+     * Développement UI et back-end
+     * Planification et encadrement de 2 personnes
      * Etude et développements de composants techniques/framework au sein d'une application JEE
 
     Environnement : Windows, Mainframe IBM z, UNIX, Visual Basic, PacBase, Oracle, DB2, C, Pro*C, Java, Websphere Studio Application Developper
 - job-title: Assistant architecte, architecte junior
   time: 2009-2012 (3 ans)
-  location: Sopra Group ­ Evolan Edition, Toulouse - Colomiers
+  location: Sopra Group - Evolan Edition / Sopra Banking Software, Toulouse - Colomiers
   description: >
-    Assistance architecture technique :
+    Tâches réalisées :
 
      * Mise en conformité PA-DSS d'une solution (équipe de 6 personnes)
        * Étude des prérquis, cadrage puis définition des solutions à apporter pour assurer la conformité
@@ -48,16 +40,16 @@
        * Définition de l'architecture technique finale en collaboration avec
        le chef de projet et un assistant architecte débutant
        * Assistance technique et architecture lors de développements
-     * Assistance technique dans l'équipe d'architecture d'une solution de Back­Office en cours de développement
-       * Réception et packaging technique des livraisons internes (off­shore on­shore)
+     * Assistance technique dans l'équipe d'architecture d'une solution de Back-Office en cours de développement
+       * Réception et packaging technique des livraisons internes (off-shore on-shore)
        * Packaging technique des livraisons client
        * Gestion d'une plateforme de virtualisation VMWare sous Windows
-       * Développement d'outillage technique pour les tests unitaires et la qualification
+       * Développement d'outillage technique divers
        * Monitoring, analyse de performances et profiling à l'aide d'outils (JMX, JConsole, JProfiler)
        * Correction d'anomalies techniques et fonctionnelles sur l'application J2EE
 
-    Environnement : Eclipse 3.3, JBoss Application Server 4.2, WebSphere Application Server 6.1,
-    WebLogic 9.2, WebSphere MQ, Oracle 10g, DB2, Java, J2EE, Windows, UNIX
+    Environnement : JBoss AS, WebSphere Application Server,
+    WebLogic Server, WebSphere MQ, Oracle, DB2, Java, J2EE, Windows, UNIX
 - job-title: Developpeur Expérimenté
   time: 2012-2013 (1 an)
   location: Infotel Conseil, Toulouse - Blagnac
@@ -65,13 +57,12 @@
     Développement au sein d'un équipe de 4 personnes sur un logiciel d'assurance qualité logicielle, Infoscope Test :
 
      * Analyse de fonctionnalités à développer à partir des exigences exprimées
-     * Développement de Web Services REST avec JAX-RS et avec Spring MVC
-     * Développement d'interfaces Web avec Struts 2, Dojo et BackboneJS
+     * Développement de Web Services et d'UI
      * Cycle de développement Agile (Scrum)
 
-    Environnement : Eclipse, JonAS, MySQL, Java, Struts 2, Spring MVC, openSUSE (GNU/Linux)
+    Environnement : JonAS, MySQL, Java, Struts 2, Spring MVC, openSUSE (GNU/Linux)
 - job-title: Référent technique / Techno leader
-  time: Depuis Novembre 2013 (3 ans)
+  time: 2013-2016 (3 ans)
   location: Infotel Conseil, Toulouse - Blagnac
   description: >
     Développe au sein d'une équipe de 3 à 5 personnes et conseille
@@ -80,68 +71,74 @@
      * Java : Jusqu'à Java 8 (API stream, function)
      * Spring : Spring Core (Beans, Context, ...), Spring MVC, Spring Security OAuth
      * WebServices REST/JSON
-     * OAuth 2.0
-     * JWT
+     * OAuth 2.0 / JWT
      * Sécurité des applications Web :
        * Développement initial ou mise en conformité suite à audits
-       * Référentiel OWASP
-       * Référentiel CWE
+       * Référentiels OWASP et CWE
      * Intégration continue (Jenkins) :
-       * Amélioration de la plateforme d'intégration continue par l'utilisation de plugins tels que :
-         * Docker plugin
-         * Pipeline
+       * Docker plugin
+       * Pipeline
 
-    Environnement : IntelliJ IDEA, JBoss, MySQL, Oracle, Java, Spring MVC, openSUSE (GNU/Linux)
+    Environnement : Jenkins, JBoss AS, MySQL, Oracle, Java, Spring MVC, openSUSE (GNU/Linux)
 - job-title: Chef de projets R&D
-  time: Depuis Mars 2014 (2 ans)
+  time: 2014-2016 (2 ans)
   location: Infotel Conseil, Toulouse - Blagnac
   description: >
-    Gestion de plusieurs projets (2 à 3 projets simultanément) :
+    Gestion de plusieurs projets de R&D (2 à 3 projets simultanément) :
 
      * ArcHSM : Hierarchical Storage Management basé sur Arcsys
-       * Mars 2014 -> Decembre 2014, temps plein
      * Moteurs de recherche : Recherche pertinente, intégration Elasticsearch dans Arcsys, Federated search
-       * Depuis Mars 2015, reprise d'un existant (recherche pertinente), nouveaux développements (intégration Elasticsearch et Federated Search)
-     * iDBA Web : Interface de suivi et paramétrage pour iDBA-Online
-       * Janvier 2015 -> Novembre 2015, temps plein puis reduit
      * Portail Clients : Portail d'accès clients, bugtracker, téléchargement des livrables, FAQ
-       * Depuis Aout 2015, conception et suivi du projet (pas de développement)
-     * Licence Manager : Referentiel interne des produits, licences et maintenances des clients
-       * Interventions ponctuelles, faibles sollicitations
-     * ArcCFN : Coffre Fort Numérique basé sur Arcsys
-       * Interventions ponctuelles suite à avant-vente
+     * ...
 
     Gestion de librairies ou d'outils utilisés par les projets du département :
 
-     * SNMP : Service de notification et agent SNMP
-       * Interventions de développement ponctuelles
-     * Securité web : Librairie commune de protection d'accès aux API REST (JAX-RS) avec OAuth 2.0
-       * Conception et développement
-     * Cryptographie : Façade à Bouncy Castle lightweight API pour fournir des services de cryptographie
-       * Conception et développement
-     * Installeur : Framework proposant un installeur multi-plateforme pour les progiciels, basé sur Ant
-       * Conception et développement
+     * SNMP, Sécurité OAuth 2.0, Cryptographie, ...
 
     Tâches réalisées au sein de ces projets :
 
-     * Rédaction d'exigences/spécifications
-     * Conception de projets, architecture
-     * Developpement sur les projets
-     * Revue de code
-     * Rédaction de documentation produit et interne
-     * Packaging
-     * Suivi de projets simplifié
-     * Reporting hebdomadaire à la direction (Depuis Septembre 2014)
+     * Conception, réalisation, suivi, reporting et encadrement de l'équipe
 
-    Gestion d'une équipe de 4 à 5 personnes (Depuis Septembre 2014)
+    Gestion de l'équipe de 4 à 5 personnes
 
-     * Collecte, contrôle et transmission des rapports d'activité et demandes de congés
+     * Reporting des rapports d'activité individuels et demandes de congés
      * Entretiens annuels
      * Reporting annuel et à la demande à la direction
-     * Suivi et encadrement de stagiaires (2 stagiaires depuis 2015)
+     * Suivi et encadrement de stagiaires (2 stagiaires)
+- job-title: Développeur technique expérimenté
+  time: 2016-2018 (2 an)
+  location: MiPih, Toulouse - Basso Cambo
+  description: >
+    ERP Prodige - Equipe Fondamentaux techniques
+
+      * Développement JEE sous JBoss
+      * Développement de modules et extensions JBoss
+
+    ERP Prodige - Equipe Productivité et Industrialisation des Développements
+
+      * Maintenance évolutive et corrective du socle de l'ERP Prodige (environ 50 développeurs)
+        * Socle JEE (Hibernate, GWT, intercepteurs JEE, outillage de tests)
+      * Maintenance évolutive et corrective de la forge logicielle utilisée par les développeurs du MiPih.
+        * Jenkins
+        * Docker (en mode swarm)
+        * ELK pour le monitoring des logs
+        * SCMs Git et SVN
+        * Sonar
+        * Nexus
+        * "Castor": outil de packaging interne coordonnant et réalisant le packaging des 200 modules applicatifs
+          * Modélisation et gestion des dépendances avec une base de graphe Neo4j
+        * Environnement de développement (outils copiés et synchronisés sur les poste des développeurs)
+        * Outillage divers (plugins maven)
+
+    Agilité
+
+      * Développement en agilité (Scrum, retrospéctives, ...)
+      * Synchronisation inter équipes
+      * Autonomie importante de l'équipe
+
+    Environnement : Jenkins, JBoss EAP, Wildfly, Java, Dropwizard, Angular, GWT, Dart, Oracle
 - job-title: Artisan logiciel
-  time: Depuis 2014 (2 ans)
-  location: Infotel Conseil, Toulouse - Blagnac
+  time: 2014-2018 (4 ans)
   description: >
     Pratique l'artisanat logiciel (Software Craftsmanship) au sein
     de son travail et de la communauté locale Toulousaine :
@@ -152,7 +149,7 @@
      * Conception émergente
      * BDD
      * Kanban
-     * Participe activement à la communauté locale (Software Craftsmanship Toulouse) :
-       * Code & Coffee (Blagnac)
-       * Coding Dojo (IUT Blagnac)
+     * Participe à la communauté locale (Software Craftsmanship Toulouse) :
+       * Code & Coffee (Blagnac, Basso Cambo)
+       * Coding Dojo (IUT Blagnac, en interne)
        * Code Retreat (Toulouse)
