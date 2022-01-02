@@ -1,29 +1,26 @@
 important:
-  - Java (Java SE 8, JEE)
-  - Spring (Core, MVC, Data, OAuth)
+  - Java
+  - JEE
+  - Kotlin
+  - Spring (Boot, Core, Context, MVC, Data, OAuth)
   - Docker
-  - Jenkins
+  - Kubernetes
   - Angular
   - Node.js
-  - Agilité (Scrum)
+  - Gradle
   - TDD
   - Clean Code
-  - MongoDB
 normal:
-  - Dart
-  - Neo4j
   - Securité
   - Cryptographie
-  - Dropwizard
-  - REST
-  - Git
   - Maven
-  - Grunt
+  - Jenkins
+  - Git
   - RabbitMQ
-  - JBoss (Wildfly)
 lesser:
   - Zookeeper
   - Jetty
+  - JBoss (AS, EAP)
   - Oracle
   - Postgres
   - MySQL

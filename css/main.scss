@@ -47,7 +47,7 @@ body {
 }
 
 .main-layout {
-  padding: 40px 15px;
+  padding: 40px 15px 0 15px;
   text-align: center;
 }
 
@@ -62,9 +62,13 @@ body {
   padding-bottom: $block-padding;
 }
 
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .name {
-  text-align: center;
-  @media(min-width:768px) { text-align: right; }
+  text-align: right;
   text-transform: uppercase;
   font-weight: bold;
   font-size: $huge-size;
@@ -92,7 +96,7 @@ p {
 
   .panel-title {
     text-align: center;
-    @media(min-width:768px) { text-align: right; }
+    @media(min-width:768px){text-align: right;}
     text-transform: uppercase;
     font-size: $bigger-size;
     font-weight: bold;

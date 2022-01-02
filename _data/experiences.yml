@@ -1,155 +1,97 @@
 - job-title: Stagiaire Ingénieur
   time: 2007 (5 mois)
-  location: Sopra Group - Agence Monétique / Sopra Banking Software, Toulouse - Colomiers
-  description: "Étude d'évolution d'une solution de gestion de la fraude acquéreur
-(interview de collaborateurs, étude de documentation de certification, rédaction de documentation commerciale : livres Blancs, présentations)"
-- job-title: Ingénieur d'études et développement
-  time: 2007-2009 (2 ans)
-  location: Sopra Group - Agence Monétique / Sopra Banking Software, Toulouse - Colomiers
+  location: Sopra Group Agence Monétique, Toulouse - Colomiers
+  description: "Études sur la gestion de la fraude acquéreur (interview,
+étude de documentation de certification, étude de solutions internes)<br>
+Étude d'évolution d'une solution de gestion de la fraude acquéreur
+(rédaction de documentation commerciale : livres Blancs, présentations)<br>
+Étude et évolution d'une solution de gestion d'alerte d'automate bancaire"
+- job-title: Développeur, puis architecte junior
+  time: 2007-2012 (5 ans)
+  location: Sopra Group, Agence Monétique / Evolan Edition, Toulouse - Colomiers
   description: >
     Interventions sur divers progiciels et solutions :
 
-     * Back Office Monetique
-     * Outil de détection et de gestion de la fraude bancaire
-     * Outil d'analyse comportementale généraliste
+     * Evolan Issuer (Back Office Monetique)
+     * TIM Risk (Outil de détection et de gestion de la fraude bancaire)
 
-    Tâches réalisées au sein de ces progiciels ou solutions :
-
-     * Étude de besoin
-     * Rédaction de spécifications et chiffrage d'évolutions
-     * Interfaçage avec un boîtier de cryptographie HSM
-     * Développement UI et back-end
-     * Planification et encadrement de 2 personnes
-     * Etude et développements de composants techniques/framework au sein d'une application JEE
-
-    Environnement : Windows, Mainframe IBM z, UNIX, Visual Basic, PacBase, Oracle, DB2, C, Pro*C, Java, Websphere Studio Application Developper
-- job-title: Assistant architecte, architecte junior
-  time: 2009-2012 (3 ans)
-  location: Sopra Group - Evolan Edition / Sopra Banking Software, Toulouse - Colomiers
-  description: >
     Tâches réalisées :
 
-     * Mise en conformité PA-DSS d'une solution (équipe de 6 personnes)
-       * Étude des prérquis, cadrage puis définition des solutions à apporter pour assurer la conformité
-     * Réponse à un appel d'offres (équipe de 6 personnes)
-       * Définition de l'architecture technique de la réponse
-       * Assistance à la préparation de la soutenance client
-     * Réalisation de l'architecture technique JEE d'un POC de traitements au fil de l'eau (équipe de 4 à 6 personnes)
-       * Capitalisation de l'expertise d'un architecte technique expérimenté
-       ayant réalisé une architecture analogue
-       * Définition de l'architecture technique finale en collaboration avec
-       le chef de projet et un assistant architecte débutant
-       * Assistance technique et architecture lors de développements
-     * Assistance technique dans l'équipe d'architecture d'une solution de Back-Office en cours de développement
-       * Réception et packaging technique des livraisons internes (off-shore on-shore)
-       * Packaging technique des livraisons client
-       * Gestion d'une plateforme de virtualisation VMWare sous Windows
-       * Développement d'outillage technique divers
-       * Monitoring, analyse de performances et profiling à l'aide d'outils (JMX, JConsole, JProfiler)
-       * Correction d'anomalies techniques et fonctionnelles sur l'application J2EE
+     * Étude et rédaction de spécifications fonctionnelles et techniques, générales et détaillées
+     * Développement UI (VB et JEE)
+     * Développement back (C, Pro*C sur UNIX)
+     * Mise en conformité PA-DSS d'une solution
+     * Réalisation de l'architecture technique JEE d'un POC de traitements au fil de l'eau
+     * Assistance technique dans l'équipe d'architecture d'une solution de Back Office monétique
 
-    Environnement : JBoss AS, WebSphere Application Server,
-    WebLogic Server, WebSphere MQ, Oracle, DB2, Java, J2EE, Windows, UNIX
-- job-title: Developpeur Expérimenté
-  time: 2012-2013 (1 an)
+    Technos : Windows, Mainframe IBM z, UNIX, PacBase, Oracle, DB2, C, Pro*C, Java, JBoss AS, WebSphere AS, WebLogic Server, WebSphere MQ, DB2, Java, J2EE
+- job-title: Developpeur expérimenté et Scrum Master
+  time: 2012-2016 (4 ans)
   location: Infotel Conseil, Toulouse - Blagnac
   description: >
-    Développement au sein d'un équipe de 4 personnes sur un logiciel d'assurance qualité logicielle, Infoscope Test :
+    Interventions sur divers progiciels et projets :
 
-     * Analyse de fonctionnalités à développer à partir des exigences exprimées
-     * Développement de Web Services et d'UI
-     * Cycle de développement Agile (Scrum)
+     * Infoscope Test (Logiciel d'assurance qualité logicielle)
+     * Sécurité des applications Web (consulting, référentiels OWASP et CWE)
+     * ArcCFN et ArcHSM (Solutions de coffre fort numérique et hierarchical storage management)
+     * Moteur de recherche (implémentation d'un algorithme de type TF-IDF optimisé)
+     * Forge Logicielle (Jenkins)
 
-    Environnement : JonAS, MySQL, Java, Struts 2, Spring MVC, openSUSE (GNU/Linux)
-- job-title: Référent technique / Techno leader
-  time: 2013-2016 (3 ans)
-  location: Infotel Conseil, Toulouse - Blagnac
+    Tâches réalisées :
+
+      * Analyse
+      * Développement UI (Struts 2, Backbone JS, Angular JS)
+      * Développement Back (JEE, Spring MVC)
+      * Consulting (mise en conformité suite à audit de sécurité)
+      * Développement d'une architecture en haute dispo / scalabilité (Reactor, Apache ZooKeeper, RabbitMQ, Oracle RAC)
+      * Revue de code
+      * Suivi de projet / Gestion d'équipe de 4-5 personnes
+      * Reporting en direction
+
+    Travail en agilité (SCRUM).
+
+    Travail en artisanat logiciel au sein du travail et de la communauté locale (Code & Coffe, Coding Dojo, Code Retreat)
+
+      * TDD
+      * Clean Code
+      * Coding Dojos
+      * Conception émergente
+      * BDD
+
+    Technos : JonAS, JBoss, Jetty, MySQL, Oracle, Java, Struts 2, Spring MVC, Spring Security, openSUSE, OAuth 2.0, Reactor, ZooKeeper, RabbitMQ, Oracle RAC
+- job-title: Développeur confirmé et Scrum Master
+  time: Depuis 2016 (5 ans)
+  location: Mipih, Toulouse
   description: >
-    Développe au sein d'une équipe de 3 à 5 personnes et conseille
-    les collaborateurs du département sur les sujets suivants :
+    Développement et maintenance de la forge logicielle en intégration continue du Mipih
 
-     * Java : Jusqu'à Java 8 (API stream, function)
-     * Spring : Spring Core (Beans, Context, ...), Spring MVC, Spring Security OAuth
-     * WebServices REST/JSON
-     * OAuth 2.0 / JWT
-     * Sécurité des applications Web :
-       * Développement initial ou mise en conformité suite à audits
-       * Référentiels OWASP et CWE
-     * Intégration continue (Jenkins) :
-       * Docker plugin
-       * Pipeline
+     * Jenkins
+     * Sonar
+     * Nexus
+     * Kubernetes
+     * GlusterFS
 
-    Environnement : Jenkins, JBoss AS, MySQL, Oracle, Java, Spring MVC, openSUSE (GNU/Linux)
-- job-title: Chef de projets R&D
-  time: 2014-2016 (2 ans)
-  location: Infotel Conseil, Toulouse - Blagnac
-  description: >
-    Gestion de plusieurs projets de R&D (2 à 3 projets simultanément) :
+    Développement et maintenance d'un logiciel de packaging de composants logiciels JEE : Castor
 
-     * ArcHSM : Hierarchical Storage Management basé sur Arcsys
-     * Moteurs de recherche : Recherche pertinente, intégration Elasticsearch dans Arcsys, Federated search
-     * Portail Clients : Portail d'accès clients, bugtracker, téléchargement des livrables, FAQ
-     * ...
+     * JEE
+     * Wildfly
+     * Docker compose
+     * RabbitMQ
 
-    Gestion de librairies ou d'outils utilisés par les projets du département :
+    Développement sur le progiciel Prodige (ERP pour les hopitaux)
 
-     * SNMP, Sécurité OAuth 2.0, Cryptographie, ...
+     * Développement JEE / GWT sur l'ERP Prodige.
+     * Référents sur la veille aux vulnérabilités de sécurité (rapports ANSSI, en relation avec les RSSI).
+     * Support sur le socle technique aux développeurs et à l'exploitation technique pour les hopitaux.
+     * Développement et maintenance d'outils d'aide à l'exploitation technique pour installer et mettre à jour l'application et ses composants de façon automatisée.
 
-    Tâches réalisées au sein de ces projets :
+    Travail en agilité (SCRUM) et softskills :
 
-     * Conception, réalisation, suivi, reporting et encadrement de l'équipe
+     * Scrum Masteur d'une équipe de 5 personnes.
+     * Mise en place et suivi des rituels d'équipe.
+     * Interractions fortes avec le PO.
+     * "Manager Proxy" pour détecter les problèmes éventuels au plus tôt et désamorcer les situations conflictuelles.
+     * Contacts humains priviligiés avec le maximum d'interlocuteurs pour bien comprendre les problèmatiques de chacun et apréhender au mieux les problèmes et leurs solutions.
+     * Calcul d'indicateurs pour reporting à la direction.
 
-    Gestion de l'équipe de 4 à 5 personnes
-
-     * Reporting des rapports d'activité individuels et demandes de congés
-     * Entretiens annuels
-     * Reporting annuel et à la demande à la direction
-     * Suivi et encadrement de stagiaires (2 stagiaires)
-- job-title: Développeur technique expérimenté
-  time: 2016-2018 (2 an)
-  location: MiPih, Toulouse - Basso Cambo
-  description: >
-    ERP Prodige - Equipe Fondamentaux techniques
-
-      * Développement JEE sous JBoss
-      * Développement de modules et extensions JBoss
-
-    ERP Prodige - Equipe Productivité et Industrialisation des Développements
-
-      * Maintenance évolutive et corrective du socle de l'ERP Prodige (environ 50 développeurs)
-        * Socle JEE (Hibernate, GWT, intercepteurs JEE, outillage de tests)
-      * Maintenance évolutive et corrective de la forge logicielle utilisée par les développeurs du MiPih.
-        * Jenkins
-        * Docker (en mode swarm)
-        * ELK pour le monitoring des logs
-        * SCMs Git et SVN
-        * Sonar
-        * Nexus
-        * "Castor": outil de packaging interne coordonnant et réalisant le packaging des 200 modules applicatifs
-          * Modélisation et gestion des dépendances avec une base de graphe Neo4j
-        * Environnement de développement (outils copiés et synchronisés sur les poste des développeurs)
-        * Outillage divers (plugins maven)
-
-    Agilité
-
-      * Développement en agilité (Scrum, retrospéctives, ...)
-      * Synchronisation inter équipes
-      * Autonomie importante de l'équipe
-
-    Environnement : Jenkins, JBoss EAP, Wildfly, Java, Dropwizard, Angular, GWT, Dart, Oracle
-- job-title: Artisan logiciel
-  time: 2014-2018 (4 ans)
-  description: >
-    Pratique l'artisanat logiciel (Software Craftsmanship) au sein
-    de son travail et de la communauté locale Toulousaine :
-
-     * Agilité
-     * Clean code
-     * TDD
-     * Conception émergente
-     * BDD
-     * Kanban
-     * Participe à la communauté locale (Software Craftsmanship Toulouse) :
-       * Code & Coffee (Blagnac, Basso Cambo)
-       * Coding Dojo (IUT Blagnac, en interne)
-       * Code Retreat (Toulouse)
+    Technos : JEE, Java, Kotlin, Wildfly, Kubernetes, Docker, Jenkins, Spring Boot, Angular, Gradle, Nexus, Sonar, RabbitMQ
