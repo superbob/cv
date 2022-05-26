@@ -60,7 +60,7 @@
 
     Technos : JonAS, JBoss, Jetty, MySQL, Oracle, Java, Struts 2, Spring MVC, Spring Security, openSUSE, OAuth 2.0, Reactor, ZooKeeper, RabbitMQ, Oracle RAC
 - job-title: Développeur confirmé et Scrum Master
-  time: Depuis 2016 (5 ans)
+  time: 2016-2022 (5 ans)
   location: Mipih, Toulouse
   description: >
     Développement et maintenance de la forge logicielle en intégration continue du Mipih
@@ -95,3 +95,15 @@
      * Calcul d'indicateurs pour reporting à la direction.
 
     Technos : JEE, Java, Kotlin, Wildfly, Kubernetes, Docker, Jenkins, Spring Boot, Angular, Gradle, Nexus, Sonar, RabbitMQ
+- job-title: Développeur confirmé
+  time: Avril-Mai 2022 (1 mois)
+  location: Sunday, Remote
+  description: >
+    Développement d'un composant pour les produits Sunday (Backend/Frontend)
+
+     * Développement au sein d'une équipe de 4-5 personnes
+     * Autonomie dans l'organisation du travail et la prise de décision
+     * Travail en full remote
+     * Interractions multiples avec les autres équipes de l'entreprise
+
+    Technos : Java, Spring Boot, React, GCP, Kubernetes, Docker, GitHub CI/CD, Gradle, Kafka, gRPC
